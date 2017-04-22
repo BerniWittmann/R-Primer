@@ -12,14 +12,14 @@ Variablen muss man sich wie kleine Container vorstellen. Sie haben einen Namen z
 
 Eine Variable wird mit einer Zuweisung (`<-`) belegt.
 
-*Beispiel*
+**Beispiel**
 
 ```{r}
    x <- 5
 ```
 
 
-*Aufgabe* 
+**Aufgabe**
 
 Belege die Variable `a` mit dem Wert `7` und die Variable `b` mit `"Hallo"`.
 
@@ -34,7 +34,7 @@ Natuerlich kann man dann mit diesen Variablen rechnen.
    result <- x + a
 ```
 
-*Aufgabe* 
+**Aufgabe**
 
 Berechne das Produjkt vom `x` und `a`
 
@@ -42,7 +42,7 @@ Berechne das Produjkt vom `x` und `a`
    #TODO
 ```
 
-*Bonusaufgabe*
+**Bonusaufgabe**
 
 Gegeben sind die Variablen `x1` und `x2` mit Werten `3` und `"test"`.
 Aufgabe ist es die Variablen zu tauschen, sodass `x1` `"test"` entspricht und `x2` `3`.
@@ -74,7 +74,7 @@ Einzelne Werte eines Vektors koennen mit `[]` ausgelesen werden.
    x[2]
 ```
 
-*Aufgabe*
+**Aufgabe**
 
 Lies den dritten und vierten Wert von `x` aus
 
@@ -82,7 +82,7 @@ Lies den dritten und vierten Wert von `x` aus
    #TODO
 ```
 
-*Bonusaufgabe*
+**Bonusaufgabe**
 
 Berechne die Anzahl an Werten, die groesser als `5` im Vektor `y <- c(10,3,6,1,0,8,9,2)` sind.
 
@@ -113,7 +113,7 @@ Eine Funktion bekommt Parameter, die per Komma getrennt übergeben werden. Eine 
 	square(3)
 ```
 
-*Aufgabe*
+**Aufgabe**
 
 Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurück gibt. Berechne dann mithilfe dieser die Summe von `3` und `9`.
 
@@ -121,7 +121,7 @@ Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurück 
 	#TODO
 ```
 
-*Bonusaufgabe (schwer)*
+**Bonusaufgabe (schwer)**
 
 Schreibe eine Funktion `sum` die einen Vektor an Zahlen als Parameter aufnimmt und die Summe der Zahlen zurueck gibt.
 
