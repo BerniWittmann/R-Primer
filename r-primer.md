@@ -1,5 +1,7 @@
 # R - Primer
 
+*Dein eigener Code ist an den Stellen, die mit `#TODO` gekennzeichnet sind, einzufügen.*
+
 ## Variablen
 
 Variablen muss man sich wie kleine Container vorstellen. Sie haben einen Namen z.B. `x` und einen Wert (hier `5`).
@@ -12,46 +14,46 @@ Eine Variable wird mit einer Zuweisung (`<-`) belegt.
 
 *Beispiel*
 
-'''{r}
-   x <- 5
-'''
+```{r}
+   x <- 5
+```
 
 
 *Aufgabe* 
 
 Belege die Variable `a` mit dem Wert `7` und die Variable `b` mit `"Hallo"`.
 
-'''{r}
+```{r}
   #TODO
-'''
+```
 
 
 Natuerlich kann man dann mit diesen Variablen rechnen.
 
-'''{r}
+```{r}
    result <- x + a
-'''
+```
 
 *Aufgabe* 
 
 Berechne das Produjkt vom `x` und `a`
 
-'''{r}
+```{r}
    #TODO
-'''
+```
 
 *Bonusaufgabe*
 
 Gegeben sind die Variablen `x1` und `x2` mit Werten `3` und `"test"`.
 Aufgabe ist es die Variablen zu tauschen, sodass `x1` `"test"` entspricht und `x2` `3`.
 
-'''{r}
+```{r}
    x1 <- 3
    X2 <- "test"
    
    #TODO
 
-'''
+```
 
 
 ## Vektoren
@@ -62,23 +64,23 @@ Vektoren (auch Arrays genannt) sind quasi Variablen deren Wert eine Liste von We
 |------| --------------|
 | x    | [1,2,3,4,5,6] |
 
-'''{r}
+```{r}
    x <- 1:6
-'''
+```
 
 Einzelne Werte eines Vektors koennen mit `[]` ausgelesen werden.
 
-'''{r}
+```{r}
    x[2]
-'''
+```
 
 *Aufgabe*
 
 Lies den dritten und vierten Wert von `x` aus
 
-'''{r}
+```{r}
    #TODO
-'''
+```
 
 *Bonusaufgabe*
 
@@ -86,38 +88,38 @@ Berechne die Anzahl an Werten, die groesser als `5` im Vektor `y <- c(10,3,6,1,0
 
 > Tipp: die Funktion `length(x)` berechnet die Länge eines Vektors.
 
-'''{r}
+```{r}
    y <- c(10,3,6,1,0,8,9,2)
    #TODO
-'''
+```
 
 
 ## Funktionen
 
 Funktionen sind Methoden, die Parameter aufnehmen und einen Rückgabewert liefern. Am Besten schauen wir uns ein Beispiel an.
 
-'''{r}
+```{r}
 	square <- function(x) {
     	result <- x * x
         
         return(result)
     }
     square(4)
-'''
+```
 
 Eine Funktion bekommt Parameter, die per Komma getrennt übergeben werden. Eine Funktion wird mit ihrem Namen und den Parametern dahinter in Klammern aufgerufen
 
-'''{r}
+```{r}
 	square(3)
-'''
+```
 
 *Aufgabe*
 
 Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurück gibt. Berechne dann mithilfe dieser die Summe von `3` und `9`.
 
-'''{r}
+```{r}
 	#TODO
-'''
+```
 
 *Bonusaufgabe (schwer)*
 
@@ -126,11 +128,11 @@ Schreibe eine Funktion `sum` die einen Vektor an Zahlen als Parameter aufnimmt u
 > Tipp: Nutze eine `for`-Schleife mit der Länge des Vektors um die einzelnen Zahlen zu durchlaufen.
 
 
-'''{r}
+```{r}
     #TODO
     
     sum(c(8,3,10,7,2,0))
-'''
+```
 
 ---
 
