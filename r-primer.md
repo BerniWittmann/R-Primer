@@ -2,7 +2,7 @@
 
 ## Variablen
 
-Variablen muss man sich wie kleine Container vorstellen. Sie haben ei\en Namen z.B. `x` und einen Wert (hier `5`).
+Variablen muss man sich wie kleine Container vorstellen. Sie haben einen Namen z.B. `x` und einen Wert (hier `5`).
 
 | Name | Inhalt |
 |------|--------|
@@ -43,7 +43,7 @@ Berechne das Produjkt vom `x` und `a`
 *Bonusaufgabe*
 
 Gegeben sind die Variablen `x1` und `x2` mit Werten `3` und `"test"`.
-Aufgabe ist es die variablen zu tauschen, sodass `x1` `"test"` entspricht und `x2` `3`.
+Aufgabe ist es die Variablen zu tauschen, sodass `x1` `"test"` entspricht und `x2` `3`.
 
 '''{r}
    x1 <- 3
@@ -84,7 +84,7 @@ Lies den dritten und vierten Wert von `x` aus
 
 Berechne die Anzahl an Werten, die groesser als `5` im Vektor `y <- c(10,3,6,1,0,8,9,2)` sind.
 
-> Tipp: die Funktion `length(x)` berechnet die Laenge eines Vektors.
+> Tipp: die Funktion `length(x)` berechnet die Länge eines Vektors.
 
 '''{r}
    y <- c(10,3,6,1,0,8,9,2)
@@ -94,7 +94,7 @@ Berechne die Anzahl an Werten, die groesser als `5` im Vektor `y <- c(10,3,6,1,0
 
 ## Funktionen
 
-Funktionen sind Methoden, die Parameter aufnehmen und einen Rueckgabewert liefern. Am Besten schauen wir uns ein Beispiel an.
+Funktionen sind Methoden, die Parameter aufnehmen und einen Rückgabewert liefern. Am Besten schauen wir uns ein Beispiel an.
 
 '''{r}
 	square <- function(x) {
@@ -105,7 +105,7 @@ Funktionen sind Methoden, die Parameter aufnehmen und einen Rueckgabewert liefer
     square(4)
 '''
 
-Eine Funktion bekommt Parameter, die per Komma getrennt uebergeben werden. Eine Funktion wird mit ihrem Namen und den Parametern dahinter in Klammern aufgerufen
+Eine Funktion bekommt Parameter, die per Komma getrennt übergeben werden. Eine Funktion wird mit ihrem Namen und den Parametern dahinter in Klammern aufgerufen
 
 '''{r}
 	square(3)
@@ -113,7 +113,7 @@ Eine Funktion bekommt Parameter, die per Komma getrennt uebergeben werden. Eine 
 
 *Aufgabe*
 
-Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurueck gibt. Berechne dann mithilfe dieser die Summe von `3` und `9`.
+Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurück gibt. Berechne dann mithilfe dieser die Summe von `3` und `9`.
 
 '''{r}
 	#TODO
@@ -123,7 +123,7 @@ Schreibe eine Funktion die ihre zwei Parameter addiert und das Ergebnis zurueck 
 
 Schreibe eine Funktion `sum` die einen Vektor an Zahlen als Parameter aufnimmt und die Summe der Zahlen zurueck gibt.
 
-> Tipp: Nutze eine `for`-Schleife mit der Laenge des Vektors um die einzelnen Zahlen zu durchlaufen.
+> Tipp: Nutze eine `for`-Schleife mit der Länge des Vektors um die einzelnen Zahlen zu durchlaufen.
 
 
 '''{r}
